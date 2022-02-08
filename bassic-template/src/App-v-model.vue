@@ -1,4 +1,4 @@
-<script setup>
+r<script setup>
 import { ref, computed } from 'vue'
 console.clear()
 const base = ref(4)
