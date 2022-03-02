@@ -1,4 +1,5 @@
-<script setup>import { MagicString } from 'vue/compiler-sfc';
+<script setup>
+import { MagicString } from 'vue/compiler-sfc';
 
 // style
   const waringColor = 'orange'

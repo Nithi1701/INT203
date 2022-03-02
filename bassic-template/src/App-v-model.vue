@@ -4,7 +4,6 @@ console.clear()
 const base = ref(4)
 const height = ref(8)
 const result = computed(() => {
-
   return (1 / 2) * base.value * height.value
 })
 </script>
