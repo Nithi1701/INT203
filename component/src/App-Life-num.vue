@@ -1,7 +1,7 @@
 <script setup>
 //on created
 import { ref, onBeforeMount, onMounted, onBeforeUpdate, onUpdated } from 'vue'
-import NumUpdate from './components/NumUpdate-G3.vue'
+import NumUpdate from './components/lifeCycle/NumUpdate.vue'
 onMounted(() => {
   // num.value = 5
   alert(`on mounted: ${num.value}`)
