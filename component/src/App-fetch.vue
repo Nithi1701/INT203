@@ -45,14 +45,14 @@
         editingNote.value = editNote
         console.log(editingNote.value)
     }
-    const modifyNote = async (editingNote) => {
-        const res = await fetch(`http://localhost:5000/notes/${editingNote.id}`, {
+    const modifyNote = async (replaceNote) => {
+        const res = await fetch(`http://localhost:5000/notes/${replaceNote.id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
             },
             body: JSON.stringify({
-                noteDetail: editingNote.noteDetail
+                noteDetail: replaceNote.noteDetail
             })
         })
         if (res.status === 200) {
@@ -64,6 +64,7 @@
             )
             console.log('edited successfully')
         } else console.log('error, cannot edit')
+        editingNote.value = {}
     }
 </script>
 
