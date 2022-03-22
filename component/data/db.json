@@ -1,6 +1,20 @@
 {
-    "notes": [
-      { "id": 1, "NoteDetail": "preparing exam" },
-      { "id": 2, "NoteDetail": "watch movies" }
-    ]
+  "notes": [
+    {
+      "noteDetail": "practice vuejs much more",
+      "id": 1
+    },
+    {
+      "noteDetail": "go shopping",
+      "id": 2
+    },
+    {
+      "noteDetail": "visit grandpa",
+      "id": 3
+    },
+    {
+      "noteDetail": "go somewhere",
+      "id": 4
+    }
+  ]
 }
